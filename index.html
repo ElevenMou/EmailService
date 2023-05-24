@@ -1,412 +1,2249 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html
+  lang="en"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Email Template service</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Get your great email</title>
+
+    <!--##custom-font-resource##-->
+    <!--[if gte mso 16]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG />
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+    <![endif]-->
+    <!--[if gte mso 9]>
+      <style>
+        .col {
+          width: 100%;
+        }
+
+        .width800 {
+          width: 800px;
+        }
+
+        .width249 {
+          width: 249px;
+          height: auto;
+        }
+        .width80 {
+          width: 80px;
+          height: auto;
+        }
+        .width150 {
+          width: 150px;
+          height: auto;
+        }
+        .width63 {
+          width: 63px;
+          height: auto;
+        }
+        .width48 {
+          width: 48px;
+          height: auto;
+        }
+        .width60 {
+          width: 60px;
+          height: auto;
+        }
+
+        .hide-on-desktop {
+          display: none;
+        }
+
+        .hide-on-desktop table {
+          mso-hide: all;
+        }
+
+        .hide-on-desktop div {
+          mso-hide: all;
+        }
+
+        .nounderline {
+          text-decoration: none;
+        }
+
+        .mso-font-fix-arial {
+          font-family: Arial, sans-serif;
+        }
+        .mso-font-fix-comic_sans_ms {
+          font-family: "Comic Sans MS", sans-serif;
+        }
+        .mso-font-fix-courier {
+          font-family: Courier, monospace;
+        }
+        .mso-font-fix-georgia {
+          font-family: Georgia, serif;
+        }
+        .mso-font-fix-segoe_ui {
+          font-family: "Segoe UI", sans-serif;
+        }
+        .mso-font-fix-tahoma {
+          font-family: Tahoma, sans-serif;
+        }
+        .mso-font-fix-times_new_roman {
+          font-family: "Times New Roman", serif;
+        }
+        .mso-font-fix-trebuchet_ms {
+          font-family: "Trebuchet MS", sans-serif;
+        }
+        .mso-font-fix-verdana {
+          font-family: Verdana, sans-serif;
+        }
+      </style>
+    <![endif]-->
+
+    <style type="text/css">
+      html,
+      body,
+      table,
+      tbody,
+      tr,
+      td,
+      div,
+      p,
+      ul,
+      ol,
+      li,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+      table {
+        border-spacing: 0;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Arial;
+      }
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      .ReadMsgBody {
+        width: 100%;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
+      a[x-apple-data-detectors="true"] {
+        color: inherit !important;
+        text-decoration: inherit !important;
+      }
+      u + #body a {
+        color: inherit;
+        text-decoration: inherit !important;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+      }
+      a,
+      a:link,
+      .no-detect-local a,
+      .appleLinks a {
+        color: inherit !important;
+        text-decoration: inherit;
+      }
+      .width800 {
+        width: 800px;
+        max-width: 100%;
+      }
+      @media all and (max-width: 799px) {
+        .width800 {
+          width: 100% !important;
+        }
+      }
+      @media screen and (min-width: 600px) {
+        .hide-on-desktop {
+          display: none !important;
+        }
+      }
+      @media all and (max-width: 599px),
+        only screen and (max-device-width: 599px) {
+        .main-container {
+          width: 100% !important;
+        }
+      }
+      @media all and (max-width: 599px),
+        only screen and (max-device-width: 599px) {
+        .col {
+          width: 100%;
+        }
+      }
+      @media all and (max-width: 599px),
+        only screen and (max-device-width: 599px) {
+        .fluid-on-mobile {
+          width: 100% !important;
+          height: auto !important;
+          text-align: center;
+        }
+      }
+      @media all and (max-width: 599px),
+        only screen and (max-device-width: 599px) {
+        .hide-on-mobile {
+          display: none !important;
+          width: 0px !important;
+          height: 0px !important;
+          overflow: hidden;
+        }
+      }
+      @media screen and (min-width: 600px) {
+        .hide-on-desktop {
+          display: none;
+        }
+      }
+      @media all and (max-width: 599px) {
+        .hide-on-mobile {
+          display: none !important;
+          width: 0px !important;
+          height: 0px !important;
+          overflow: hidden;
+        }
+      }
+      @media all and (max-width: 599px) {
+        .main-container {
+          width: 100% !important;
+        }
+      }
+      @media all and (max-width: 599px) {
+        .col {
+          width: 100%;
+        }
+      }
+      @media all and (max-width: 599px) {
+        .fluid-on-mobile {
+          width: 100% !important;
+          height: auto !important;
+          text-align: center;
+        }
+      }
+    </style>
   </head>
-  <body style="background: #eee">
-    <center
-      class="wrapper"
-      style="
-        max-width: 800px;
-        margin: 40px auto;
-        background: #f8fcff;
-        min-height: 200px;
-      "
-    >
-      <table class="main" width="100%" style="border-spacing: 0">
-        <tr width="100%">
-          <td height="5" style="background-color: #424242; padding: 0"></td>
-        </tr>
+  <body
+    id="body"
+    leftmargin="0"
+    marginwidth="0"
+    topmargin="0"
+    marginheight="0"
+    offset="0"
+    style="
+      font-family: Arial, sans-serif;
+      font-size: 0px;
+      margin: 0;
+      padding: 0;
+      background-color: #eeeeee;
+    "
+  >
+    <div style="background-color: #eeeeee">
+      <table
+        height="100%"
+        width="100%"
+        cellpadding="0"
+        cellspacing="0"
+        border="0"
+      >
         <tr>
-          <td style="padding: 25px 25px 0">
-            <table width="100%" style="border-spacing: 0">
+          <td valign="top" align="left">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
               <tr>
-                <td
-                  class="two-columns"
-                  style="padding: 0; font-size: 0; text-align: center"
-                >
+                <td width="100%">
                   <table
-                    class="column"
-                    style="
-                      border-spacing: 0;
-                      width: 100%;
-                      max-width: 350px;
-                      display: inline-table;
-                      vertical-align: middle;
-                    "
+                    cellpadding="0"
+                    cellspacing="0"
+                    border="0"
+                    width="100%"
                   >
                     <tr>
-                      <td style="padding: 10px 10px; text-align: left">
-                        <a href="https://www.moussasaidi.com/" target="_blank">
-                          <img
-                            src="https://i.ibb.co/mc4j56Z/Logo.png"
-                            alt="Logo"
-                            style="border: 0; max-width: 100%"
-                          />
-                        </a>
-                      </td>
-                    </tr>
-                  </table>
-                  <table
-                    class="column"
-                    style="
-                      border-spacing: 0;
-                      width: 100%;
-                      max-width: 350px;
-                      display: inline-table;
-                      vertical-align: middle;
-                    "
-                  >
-                    <tr>
-                      <td style="padding: 10px; text-align: center">
-                        <a href="https://www.fiverr.com/mousa1" target="_blank">
-                          <img
-                            src="https://i.ibb.co/dDB4szD/Fiverr-Logo.png"
-                            alt="Logo"
-                            style="border: 0; max-width: 100%"
-                          />
-                        </a>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td style="text-align: center; padding: 40px 20px 20px">
-            <img
-              src="https://i.ibb.co/jHVpyB3/Profile-IMG.png"
-              alt="Profile-IMG"
-              style="border: 0; max-width: 100%"
-            />
-            <h1
-              style="
-                font-size: 46px;
-                color: #150050;
-                font-weight: bold;
-                text-transform: capitalize;
-              "
-            >
-              Hi Client,
-            </h1>
-            <p style="font-size: 16px; color: #424242">
-              Would you like to improve the professional look of your email? If
-              so, I can help you.
-            </p>
-          </td>
-        </tr>
-        <tr>
-          <td
-            style="text-align: center; padding: 20px 0px; background: #5fbaff"
-          >
-            <h2
-              style="
-                color: #f8fcff;
-                margin-block-start: 0;
-                margin-block-end: 10px;
-                font-size: 42px;
-                text-transform: capitalize;
-              "
-            >
-              I offer
-            </h2>
-            <table width="100%" style="border-spacing: 0">
-              <tr>
-                <td
-                  class="two-columns"
-                  style="padding: 0; font-size: 0; text-align: center"
-                >
-                  <table
-                    class="column"
-                    style="
-                      border-spacing: 0;
-                      width: 100%;
-                      max-width: 350px;
-                      display: inline-table;
-                      vertical-align: middle;
-                    "
-                  >
-                    <tr>
-                      <td
-                        class="card-wrapper"
-                        style="padding: 10px; text-align: center"
-                      >
-                        <table width="100%" style="border-spacing: 0">
+                      <td align="center" width="100%">
+                        <!--[if gte mso 9]><table width="800" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                        <table
+                          class="width800 main-container"
+                          cellpadding="0"
+                          cellspacing="0"
+                          border="0"
+                          width="100%"
+                          style="max-width: 800px"
+                        >
                           <tr>
-                            <td
-                              class="card"
-                              style="
-                                padding: 15px;
-                                background: #f8fcff;
-                                border-radius: 14px;
-                              "
-                            >
-                              <img
-                                src="https://i.ibb.co/nfRBNWd/Icon-Design.png"
-                                alt="Icon-Design"
-                                style="border: 0; max-width: 100%"
-                              />
-                              <h3
-                                style="
-                                  color: #150050;
-                                  font-size: 18px;
-                                  text-transform: capitalize;
-                                "
-                              >
-                                Professional and Customized Designs
-                              </h3>
-                              <p style="font-size: 14px; color: #424242">
-                                I offer professional and customized HTML email
-                                designs tailored specifically to meet your
-                                client's needs and brand requirements.
-                              </p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                  <table
-                    class="column"
-                    style="
-                      border-spacing: 0;
-                      width: 100%;
-                      max-width: 350px;
-                      display: inline-table;
-                      vertical-align: middle;
-                    "
-                  >
-                    <tr>
-                      <td
-                        class="card-wrapper"
-                        style="padding: 10px; text-align: center"
-                      >
-                        <table width="100%" style="border-spacing: 0">
-                          <tr>
-                            <td
-                              class="card"
-                              style="
-                                padding: 15px;
-                                background: #f8fcff;
-                                border-radius: 14px;
-                              "
-                            >
-                              <img
-                                src="https://i.ibb.co/0sCmCL1/Icon-Phone.png"
-                                alt="Icon-Phone"
-                                style="border: 0; max-width: 100%"
-                              />
-                              <h3
-                                style="
-                                  color: #150050;
-                                  font-size: 18px;
-                                  text-transform: capitalize;
-                                "
-                              >
-                                Responsive Design
-                              </h3>
-                              <p style="font-size: 14px; color: #424242">
-                                Responsive emails that adapt to different
-                                devices and screen sizes, ensuring optimal
-                                viewing on mobile phones, tablets, and desktops.
-                              </p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  class="two-columns"
-                  style="padding: 0; font-size: 0; text-align: center"
-                >
-                  <table
-                    class="column"
-                    style="
-                      border-spacing: 0;
-                      width: 100%;
-                      max-width: 350px;
-                      display: inline-table;
-                      vertical-align: middle;
-                    "
-                  >
-                    <tr>
-                      <td
-                        class="card-wrapper"
-                        style="padding: 10px; text-align: center"
-                      >
-                        <table width="100%" style="border-spacing: 0">
-                          <tr>
-                            <td
-                              class="card"
-                              style="
-                                padding: 15px;
-                                background: #f8fcff;
-                                border-radius: 14px;
-                              "
-                            >
-                              <img
-                                src="https://i.ibb.co/T4tfYvk/Icon-Device.png"
-                                alt="Icon-Device"
-                                style="border: 0; max-width: 100%"
-                              />
-                              <h3
-                                style="
-                                  color: #150050;
-                                  font-size: 18px;
-                                  text-transform: capitalize;
-                                "
-                              >
-                                Compatibility and Deliverability
-                              </h3>
-                              <p style="font-size: 14px; color: #424242">
-                                ensuring compatibility with popular email
-                                clients and platforms, as well as optimizing for
-                                high deliverability rates.
-                              </p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                  <table
-                    class="column"
-                    style="
-                      border-spacing: 0;
-                      width: 100%;
-                      max-width: 350px;
-                      display: inline-table;
-                      vertical-align: middle;
-                    "
-                  >
-                    <tr>
-                      <td
-                        class="card-wrapper"
-                        style="padding: 10px; text-align: center"
-                      >
-                        <table width="100%" style="border-spacing: 0">
-                          <tr>
-                            <td
-                              class="card"
-                              style="
-                                padding: 15px;
-                                background: #f8fcff;
-                                border-radius: 14px;
-                              "
-                            >
-                              <img
-                                src="https://i.ibb.co/BjrjtMF/Icon-Clock.png"
-                                alt="Icon-Clock"
+                            <td width="100%">
+                              <table
+                                cellpadding="0"
+                                cellspacing="0"
                                 border="0"
-                                style="border: 0; max-width: 100%"
-                              />
-                              <h3
-                                style="
-                                  color: #150050;
-                                  font-size: 18px;
-                                  text-transform: capitalize;
-                                "
+                                width="100%"
                               >
-                                Fast Delivery Time
-                              </h3>
-                              <p style="font-size: 14px; color: #424242">
-                                I'll deliver your email within the agreed
-                                timelines and offer a fast turnaround time
-                                without compromising on quality or attention to
-                                detail.
-                              </p>
+                                <tr>
+                                  <td valign="top">
+                                    <table
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      border="0"
+                                      width="100%"
+                                    >
+                                      <tr>
+                                        <td
+                                          valign="top"
+                                          style="padding-top: 25px"
+                                        >
+                                          <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            border="0"
+                                            width="100%"
+                                          >
+                                            <tr>
+                                              <td valign="top">
+                                                <table
+                                                  cellpadding="0"
+                                                  cellspacing="0"
+                                                  border="0"
+                                                  width="100%"
+                                                  class="mcol"
+                                                  style="
+                                                    background-color: #f8fcff;
+                                                  "
+                                                >
+                                                  <tr>
+                                                    <td
+                                                      valign="top"
+                                                      style="
+                                                        padding: 0;
+                                                        mso-cellspacing: 0in;
+                                                      "
+                                                    >
+                                                      <!--[if gte mso 9]><table cellpadding="0" cellspacing="0" border="0" width="100%"><tr><![endif]-->
+                                                      <!--[if gte mso 9]><td valign="top" style="padding:0;width:26.66666666666667px;"><![endif]-->
+                                                      <table
+                                                        cellpadding="0"
+                                                        cellspacing="0"
+                                                        border="0"
+                                                        width="3.333333333333334%"
+                                                        height="0"
+                                                        class="col hide-on-mobile"
+                                                        style="
+                                                          float: left;
+                                                          min-width: 26.66666666666667px;
+                                                          height: 1px;
+                                                        "
+                                                        align="left"
+                                                      >
+                                                        <tr>
+                                                          <td
+                                                            valign="top"
+                                                            width="100%"
+                                                            style="
+                                                              line-height: 1px;
+                                                              padding: 0;
+                                                              font-size: 0px;
+                                                            "
+                                                          >
+                                                            &nbsp;
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                      <!--[if gte mso 9]></td><!
+                                                      [endif]-->[endif]--><!--[if gte mso 9]><td valign="top" style="padding:0;width:374px;"><![endif]-->
+                                                      <table
+                                                        cellpadding="0"
+                                                        cellspacing="0"
+                                                        border="0"
+                                                        width="46.75%"
+                                                        class="col"
+                                                        style="float: left"
+                                                        align="left"
+                                                      >
+                                                        <tr>
+                                                          <td
+                                                            valign="top"
+                                                            width="100%"
+                                                            style="padding: 0"
+                                                          >
+                                                            <table
+                                                              cellpadding="0"
+                                                              cellspacing="0"
+                                                              border="0"
+                                                              width="100%"
+                                                            >
+                                                              <tr>
+                                                                <td
+                                                                  valign="top"
+                                                                  style="
+                                                                    padding: 10px;
+                                                                  "
+                                                                >
+                                                                  <table
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    border="0"
+                                                                    width="100%"
+                                                                  >
+                                                                    <tr>
+                                                                      <td
+                                                                        valign="top"
+                                                                        align="center"
+                                                                      >
+                                                                        <!--[if gte mso 9]><table width="249" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          style="
+                                                                            max-width: 100%;
+                                                                          "
+                                                                          class="fluid-on-mobile img-wrap"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                              align="center"
+                                                                            >
+                                                                              <a
+                                                                                href="https://www.moussasaidi.com/"
+                                                                                class="imglink"
+                                                                                target="_blank"
+                                                                              >
+                                                                                <img
+                                                                                  src="https://images.chamaileon.io/646e7ea2f1d5eb5705d8ff53/646e7ea2f1d5eb1987d8ff55/1684963036043_Logo.png"
+                                                                                  width="249"
+                                                                                  height="45"
+                                                                                  alt="Logo"
+                                                                                  border="0"
+                                                                                  style="
+                                                                                    display: block;
+                                                                                    font-size: 14px;
+                                                                                    max-width: 100%;
+                                                                                    height: auto;
+                                                                                  "
+                                                                                  class="width249"
+                                                                                />
+                                                                              </a>
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                        <!--[if gte mso 9]></td></tr></table><![endif]-->
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                      <!--[if gte mso 9]></td><!
+                                                      [endif]-->[endif]--><!--[if gte mso 9]><td valign="top" style="padding:0;width:372.66666666666663px;"><![endif]-->
+                                                      <table
+                                                        cellpadding="0"
+                                                        cellspacing="0"
+                                                        border="0"
+                                                        width="46.58333333333333%"
+                                                        class="col"
+                                                        style="float: left"
+                                                        align="left"
+                                                      >
+                                                        <tr>
+                                                          <td
+                                                            valign="top"
+                                                            width="100%"
+                                                            style="padding: 0"
+                                                          >
+                                                            <table
+                                                              cellpadding="0"
+                                                              cellspacing="0"
+                                                              border="0"
+                                                              width="100%"
+                                                            >
+                                                              <tr>
+                                                                <td
+                                                                  valign="top"
+                                                                  style="
+                                                                    padding-top: 10px;
+                                                                    padding-bottom: 10px;
+                                                                  "
+                                                                >
+                                                                  <table
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    border="0"
+                                                                    width="100%"
+                                                                  >
+                                                                    <tr>
+                                                                      <td
+                                                                        valign="top"
+                                                                        align="center"
+                                                                      >
+                                                                        <!--[if gte mso 9]><table width="80" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          style="
+                                                                            max-width: 100%;
+                                                                          "
+                                                                          class="img-wrap"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                              align="right"
+                                                                            >
+                                                                              <a
+                                                                                href="https://www.fiverr.com/mousa1"
+                                                                                class="imglink"
+                                                                                target="_blank"
+                                                                              >
+                                                                                <img
+                                                                                  src="https://images.chamaileon.io/646e7ea2f1d5eb5705d8ff53/646e7ea2f1d5eb1987d8ff55/1684963036038_Fiverr-Logo.png"
+                                                                                  width="80"
+                                                                                  height="25"
+                                                                                  alt="Logo"
+                                                                                  border="0"
+                                                                                  style="
+                                                                                    display: block;
+                                                                                    font-size: 14px;
+                                                                                    max-width: 100%;
+                                                                                    height: auto;
+                                                                                  "
+                                                                                  class="width80"
+                                                                                />
+                                                                              </a>
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                        <!--[if gte mso 9]></td></tr></table><![endif]-->
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                      <!--[if gte mso 9]></td><!
+                                                      [endif]-->[endif]--><!--[if gte mso 9]><td valign="top" style="padding:0;width:26.66666666666667px;"><![endif]-->
+                                                      <table
+                                                        cellpadding="0"
+                                                        cellspacing="0"
+                                                        border="0"
+                                                        width="3.333333333333334%"
+                                                        height="0"
+                                                        class="col hide-on-mobile"
+                                                        style="
+                                                          float: left;
+                                                          min-width: 26.66666666666667px;
+                                                          height: 1px;
+                                                        "
+                                                        align="left"
+                                                      >
+                                                        <tr>
+                                                          <td
+                                                            valign="top"
+                                                            width="100%"
+                                                            style="
+                                                              line-height: 1px;
+                                                              padding: 0;
+                                                              font-size: 0px;
+                                                            "
+                                                          >
+                                                            &nbsp;
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                      <!--[if gte mso 9]></td><![endif]-->
+                                                      <!--[if gte mso 9]></tr></table><![endif]-->
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
                             </td>
                           </tr>
                         </table>
+                        <!--[if gte mso 9]></td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    cellpadding="0"
+                    cellspacing="0"
+                    border="0"
+                    width="100%"
+                  >
+                    <tr>
+                      <td align="center" width="100%">
+                        <!--[if gte mso 9]><table width="800" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                        <table
+                          class="width800 main-container"
+                          cellpadding="0"
+                          cellspacing="0"
+                          border="0"
+                          width="100%"
+                          style="max-width: 800px"
+                        >
+                          <tr>
+                            <td width="100%">
+                              <table
+                                cellpadding="0"
+                                cellspacing="0"
+                                border="0"
+                                width="100%"
+                              >
+                                <tr>
+                                  <td valign="top">
+                                    <table
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      border="0"
+                                      width="100%"
+                                      bgcolor="#f8fcff"
+                                      style="background-color: #f8fcff"
+                                    >
+                                      <tr>
+                                        <td
+                                          valign="top"
+                                          style="
+                                            padding-top: 40px;
+                                            padding-right: 5px;
+                                            padding-bottom: 20px;
+                                            padding-left: 5px;
+                                          "
+                                        >
+                                          <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            border="0"
+                                            width="100%"
+                                          >
+                                            <tr>
+                                              <td valign="top" align="center">
+                                                <!--[if gte mso 9]><table width="150" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                                                <table
+                                                  cellpadding="0"
+                                                  cellspacing="0"
+                                                  border="0"
+                                                  style="max-width: 100%"
+                                                  class="img-wrap"
+                                                >
+                                                  <tr>
+                                                    <td
+                                                      valign="top"
+                                                      align="center"
+                                                    >
+                                                      <img
+                                                        src="https://images.chamaileon.io/646e7ea2f1d5eb5705d8ff53/646e7ea2f1d5eb1987d8ff55/1684963035924_Profile-IMG.png"
+                                                        width="150"
+                                                        height="150"
+                                                        alt="Profile-IMG"
+                                                        border="0"
+                                                        style="
+                                                          display: block;
+                                                          font-size: 14px;
+                                                          max-width: 100%;
+                                                          height: auto;
+                                                        "
+                                                        class="width150"
+                                                      />
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!--[if gte mso 9]></td></tr></table><![endif]-->
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            border="0"
+                                            width="100%"
+                                          >
+                                            <tr>
+                                              <td valign="top">
+                                                <div
+                                                  style="
+                                                    font-family: 'Times New Roman';
+                                                    font-size: 16px;
+                                                    color: #000000;
+                                                    line-height: 19px;
+                                                    text-align: left;
+                                                  "
+                                                >
+                                                  <h1
+                                                    style="
+                                                      font-family: 'Times New Roman';
+                                                      font-size: 46px;
+                                                      color: #150050;
+                                                      font-weight: normal;
+                                                      line-height: 55px;
+                                                      mso-line-height: exactly;
+                                                      mso-text-raise: 4px;
+                                                      padding: 0;
+                                                      margin: 0;
+                                                      font-size: 46px;
+                                                      color: #150050;
+                                                      font-weight: bold;
+                                                      text-transform: capitalize;
+                                                      text-align: center;
+                                                    "
+                                                  >
+                                                    Hi Client,
+                                                  </h1>
+                                                </div>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            border="0"
+                                            width="100%"
+                                          >
+                                            <tr>
+                                              <td
+                                                valign="top"
+                                                style="
+                                                  padding-top: 16px;
+                                                  padding-bottom: 16px;
+                                                "
+                                              >
+                                                <table
+                                                  cellpadding="0"
+                                                  cellspacing="0"
+                                                  border="0"
+                                                  width="100%"
+                                                >
+                                                  <tr>
+                                                    <td valign="top">
+                                                      <table
+                                                        cellpadding="0"
+                                                        cellspacing="0"
+                                                        border="0"
+                                                        width="100%"
+                                                      >
+                                                        <tr>
+                                                          <td valign="top">
+                                                            <div
+                                                              style="
+                                                                font-family: 'Times New Roman';
+                                                                font-size: 16px;
+                                                                color: #424242;
+                                                                line-height: 19px;
+                                                                text-align: left;
+                                                              "
+                                                            >
+                                                              <p
+                                                                style="
+                                                                  padding: 0;
+                                                                  margin: 0;
+                                                                  text-align: center;
+                                                                "
+                                                              >
+                                                                Would you like
+                                                                to improve the
+                                                                professional
+                                                                look of your
+                                                                email? If so, I
+                                                                can help you.
+                                                              </p>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if gte mso 9]></td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    cellpadding="0"
+                    cellspacing="0"
+                    border="0"
+                    width="100%"
+                  >
+                    <tr>
+                      <td align="center" width="100%">
+                        <!--[if gte mso 9]><table width="800" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                        <table
+                          class="width800 main-container"
+                          cellpadding="0"
+                          cellspacing="0"
+                          border="0"
+                          width="100%"
+                          style="max-width: 800px"
+                        >
+                          <tr>
+                            <td width="100%">
+                              <table
+                                cellpadding="0"
+                                cellspacing="0"
+                                border="0"
+                                width="100%"
+                              >
+                                <tr>
+                                  <td valign="top">
+                                    <table
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      border="0"
+                                      width="100%"
+                                      bgcolor="#5fbaff"
+                                      style="background-color: #5fbaff"
+                                    >
+                                      <tr>
+                                        <td valign="top" style="padding: 20px">
+                                          <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            border="0"
+                                            width="100%"
+                                          >
+                                            <tr>
+                                              <td valign="top">
+                                                <div
+                                                  style="
+                                                    font-family: 'Times New Roman';
+                                                    font-size: 16px;
+                                                    color: #000000;
+                                                    line-height: 19px;
+                                                    text-align: left;
+                                                  "
+                                                >
+                                                  <h2
+                                                    style="
+                                                      font-family: 'Times New Roman';
+                                                      font-size: 42px;
+                                                      color: #f8fcff;
+                                                      font-weight: normal;
+                                                      line-height: 50px;
+                                                      mso-line-height: exactly;
+                                                      mso-text-raise: 4px;
+                                                      padding: 0;
+                                                      margin: 0;
+                                                      color: #f8fcff;
+                                                      font-size: 42px;
+                                                      text-transform: capitalize;
+                                                      text-align: center;
+                                                    "
+                                                  >
+                                                    I offer
+                                                  </h2>
+                                                </div>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            border="0"
+                                            width="100%"
+                                          >
+                                            <tr>
+                                              <td valign="top">
+                                                <table
+                                                  cellpadding="0"
+                                                  cellspacing="0"
+                                                  border="0"
+                                                  width="100%"
+                                                  class="mcol"
+                                                >
+                                                  <tr>
+                                                    <td
+                                                      valign="top"
+                                                      style="
+                                                        padding: 0;
+                                                        mso-cellspacing: 0in;
+                                                      "
+                                                    >
+                                                      <!--[if gte mso 9]><table cellpadding="0" cellspacing="0" border="0" width="100%"><tr><![endif]-->
+                                                      <!--[if gte mso 9]><td valign="top" style="padding:0;width:380px;"><![endif]-->
+                                                      <table
+                                                        cellpadding="0"
+                                                        cellspacing="0"
+                                                        border="0"
+                                                        width="50%"
+                                                        class="col"
+                                                        style="float: left"
+                                                        align="left"
+                                                      >
+                                                        <tr>
+                                                          <td
+                                                            valign="top"
+                                                            width="100%"
+                                                            style="padding: 0"
+                                                          >
+                                                            <table
+                                                              cellpadding="0"
+                                                              cellspacing="0"
+                                                              border="0"
+                                                              width="100%"
+                                                            >
+                                                              <tr>
+                                                                <td
+                                                                  valign="top"
+                                                                  style="
+                                                                    padding: 10px;
+                                                                  "
+                                                                >
+                                                                  <table
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    border="0"
+                                                                    width="100%"
+                                                                    bgcolor="#f8fcff"
+                                                                    style="
+                                                                      border-radius: 14px;
+                                                                      border-collapse: separate !important;
+                                                                      background-color: #f8fcff;
+                                                                    "
+                                                                  >
+                                                                    <tr>
+                                                                      <td
+                                                                        valign="top"
+                                                                        style="
+                                                                          padding: 15px;
+                                                                        "
+                                                                      >
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          width="100%"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                            >
+                                                                              <table
+                                                                                cellpadding="0"
+                                                                                cellspacing="0"
+                                                                                border="0"
+                                                                                width="100%"
+                                                                              >
+                                                                                <tr>
+                                                                                  <td
+                                                                                    valign="top"
+                                                                                    align="center"
+                                                                                    style="
+                                                                                      padding-bottom: 20px;
+                                                                                    "
+                                                                                  >
+                                                                                    <!--[if gte mso 9]><table width="63" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                                                                                    <table
+                                                                                      cellpadding="0"
+                                                                                      cellspacing="0"
+                                                                                      border="0"
+                                                                                      style="
+                                                                                        max-width: 100%;
+                                                                                      "
+                                                                                      class="img-wrap"
+                                                                                    >
+                                                                                      <tr>
+                                                                                        <td
+                                                                                          valign="top"
+                                                                                          align="center"
+                                                                                        >
+                                                                                          <img
+                                                                                            src="https://images.chamaileon.io/646e7ea2f1d5eb5705d8ff53/646e7ea2f1d5eb1987d8ff55/1684963036395_Icon-Design.png"
+                                                                                            width="63"
+                                                                                            height="61"
+                                                                                            alt="Icon-Design"
+                                                                                            border="0"
+                                                                                            style="
+                                                                                              display: block;
+                                                                                              font-size: 14px;
+                                                                                              max-width: 100%;
+                                                                                              height: auto;
+                                                                                            "
+                                                                                            class="width63"
+                                                                                          />
+                                                                                        </td>
+                                                                                      </tr>
+                                                                                    </table>
+                                                                                    <!--[if gte mso 9]></td></tr></table><![endif]-->
+                                                                                  </td>
+                                                                                </tr>
+                                                                              </table>
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          width="100%"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                            >
+                                                                              <div
+                                                                                style="
+                                                                                  font-family: 'Times New Roman';
+                                                                                  font-size: 16px;
+                                                                                  color: #000000;
+                                                                                  line-height: 19px;
+                                                                                  text-align: left;
+                                                                                "
+                                                                              >
+                                                                                <h3
+                                                                                  style="
+                                                                                    font-family: 'Times New Roman';
+                                                                                    font-size: 18px;
+                                                                                    color: #150050;
+                                                                                    font-weight: normal;
+                                                                                    line-height: 22px;
+                                                                                    mso-line-height: exactly;
+                                                                                    mso-text-raise: 2px;
+                                                                                    padding: 0;
+                                                                                    margin: 0;
+                                                                                    color: #150050;
+                                                                                    font-size: 18px;
+                                                                                    text-transform: capitalize;
+                                                                                    text-align: center;
+                                                                                  "
+                                                                                >
+                                                                                  Professional
+                                                                                  and
+                                                                                  Customized
+                                                                                  Designs
+                                                                                </h3>
+                                                                              </div>
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          width="100%"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                              style="
+                                                                                padding-top: 14px;
+                                                                                padding-bottom: 14px;
+                                                                              "
+                                                                            >
+                                                                              <table
+                                                                                cellpadding="0"
+                                                                                cellspacing="0"
+                                                                                border="0"
+                                                                                width="100%"
+                                                                              >
+                                                                                <tr>
+                                                                                  <td
+                                                                                    valign="top"
+                                                                                  >
+                                                                                    <table
+                                                                                      cellpadding="0"
+                                                                                      cellspacing="0"
+                                                                                      border="0"
+                                                                                      width="100%"
+                                                                                    >
+                                                                                      <tr>
+                                                                                        <td
+                                                                                          valign="top"
+                                                                                        >
+                                                                                          <div
+                                                                                            style="
+                                                                                              font-family: 'Times New Roman';
+                                                                                              font-size: 14px;
+                                                                                              color: #424242;
+                                                                                              line-height: 17px;
+                                                                                              text-align: left;
+                                                                                            "
+                                                                                          >
+                                                                                            <p
+                                                                                              style="
+                                                                                                padding: 0;
+                                                                                                margin: 0;
+                                                                                                font-size: 14px;
+                                                                                                color: #424242;
+                                                                                              "
+                                                                                            >
+                                                                                              I
+                                                                                              offer
+                                                                                              professional
+                                                                                              and
+                                                                                              customized
+                                                                                              HTML
+                                                                                              email
+                                                                                              designs
+                                                                                              tailored
+                                                                                              specifically
+                                                                                              to
+                                                                                              meet
+                                                                                              your
+                                                                                              client's
+                                                                                              needs
+                                                                                              and
+                                                                                              brand
+                                                                                              requirements.
+                                                                                            </p>
+                                                                                          </div>
+                                                                                        </td>
+                                                                                      </tr>
+                                                                                    </table>
+                                                                                  </td>
+                                                                                </tr>
+                                                                              </table>
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                      <!--[if gte mso 9]></td><!
+                                                      [endif]-->[endif]--><!--[if gte mso 9]><td valign="top" style="padding:0;width:380px;"><![endif]-->
+                                                      <table
+                                                        cellpadding="0"
+                                                        cellspacing="0"
+                                                        border="0"
+                                                        width="50%"
+                                                        class="col"
+                                                        style="float: left"
+                                                        align="left"
+                                                      >
+                                                        <tr>
+                                                          <td
+                                                            valign="top"
+                                                            width="100%"
+                                                            style="padding: 0"
+                                                          >
+                                                            <table
+                                                              cellpadding="0"
+                                                              cellspacing="0"
+                                                              border="0"
+                                                              width="100%"
+                                                            >
+                                                              <tr>
+                                                                <td
+                                                                  valign="top"
+                                                                  style="
+                                                                    padding: 10px;
+                                                                  "
+                                                                >
+                                                                  <table
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    border="0"
+                                                                    width="100%"
+                                                                    bgcolor="#f8fcff"
+                                                                    style="
+                                                                      border-radius: 14px;
+                                                                      border-collapse: separate !important;
+                                                                      background-color: #f8fcff;
+                                                                    "
+                                                                  >
+                                                                    <tr>
+                                                                      <td
+                                                                        valign="top"
+                                                                        style="
+                                                                          padding: 15px;
+                                                                        "
+                                                                      >
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          width="100%"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                              align="center"
+                                                                              style="
+                                                                                padding-bottom: 20px;
+                                                                              "
+                                                                            >
+                                                                              <!--[if gte mso 9]><table width="48" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                                                                              <table
+                                                                                cellpadding="0"
+                                                                                cellspacing="0"
+                                                                                border="0"
+                                                                                style="
+                                                                                  max-width: 100%;
+                                                                                "
+                                                                                class="img-wrap"
+                                                                              >
+                                                                                <tr>
+                                                                                  <td
+                                                                                    valign="top"
+                                                                                    align="center"
+                                                                                  >
+                                                                                    <img
+                                                                                      src="https://images.chamaileon.io/646e7ea2f1d5eb5705d8ff53/646e7ea2f1d5eb1987d8ff55/1684963036271_Icon-Phone.png"
+                                                                                      width="48"
+                                                                                      height="61"
+                                                                                      alt="Icon-Phone"
+                                                                                      border="0"
+                                                                                      style="
+                                                                                        display: block;
+                                                                                        font-size: 14px;
+                                                                                        max-width: 100%;
+                                                                                        height: auto;
+                                                                                      "
+                                                                                      class="width48"
+                                                                                    />
+                                                                                  </td>
+                                                                                </tr>
+                                                                              </table>
+                                                                              <!--[if gte mso 9]></td></tr></table><![endif]-->
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          width="100%"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                            >
+                                                                              <div
+                                                                                style="
+                                                                                  font-family: 'Times New Roman';
+                                                                                  font-size: 16px;
+                                                                                  color: #000000;
+                                                                                  line-height: 19px;
+                                                                                  text-align: left;
+                                                                                "
+                                                                              >
+                                                                                <h3
+                                                                                  style="
+                                                                                    font-family: 'Times New Roman';
+                                                                                    font-size: 18px;
+                                                                                    color: #150050;
+                                                                                    font-weight: normal;
+                                                                                    line-height: 22px;
+                                                                                    mso-line-height: exactly;
+                                                                                    mso-text-raise: 2px;
+                                                                                    padding: 0;
+                                                                                    margin: 0;
+                                                                                    color: #150050;
+                                                                                    font-size: 18px;
+                                                                                    text-transform: capitalize;
+                                                                                    text-align: center;
+                                                                                  "
+                                                                                >
+                                                                                  Responsive
+                                                                                  Design
+                                                                                </h3>
+                                                                              </div>
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          width="100%"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                              style="
+                                                                                padding-top: 14px;
+                                                                                padding-bottom: 14px;
+                                                                              "
+                                                                            >
+                                                                              <table
+                                                                                cellpadding="0"
+                                                                                cellspacing="0"
+                                                                                border="0"
+                                                                                width="100%"
+                                                                              >
+                                                                                <tr>
+                                                                                  <td
+                                                                                    valign="top"
+                                                                                  >
+                                                                                    <table
+                                                                                      cellpadding="0"
+                                                                                      cellspacing="0"
+                                                                                      border="0"
+                                                                                      width="100%"
+                                                                                    >
+                                                                                      <tr>
+                                                                                        <td
+                                                                                          valign="top"
+                                                                                        >
+                                                                                          <div
+                                                                                            style="
+                                                                                              font-family: 'Times New Roman';
+                                                                                              font-size: 14px;
+                                                                                              color: #424242;
+                                                                                              line-height: 17px;
+                                                                                              text-align: left;
+                                                                                            "
+                                                                                          >
+                                                                                            <p
+                                                                                              style="
+                                                                                                padding: 0;
+                                                                                                margin: 0;
+                                                                                                font-size: 14px;
+                                                                                                color: #424242;
+                                                                                              "
+                                                                                            >
+                                                                                              Responsive
+                                                                                              emails
+                                                                                              that
+                                                                                              adapt
+                                                                                              to
+                                                                                              different
+                                                                                              devices
+                                                                                              and
+                                                                                              screen
+                                                                                              sizes,
+                                                                                              ensuring
+                                                                                              optimal
+                                                                                              viewing
+                                                                                              on
+                                                                                              mobile
+                                                                                              phones,
+                                                                                              tablets,
+                                                                                              and
+                                                                                              desktops.
+                                                                                            </p>
+                                                                                          </div>
+                                                                                        </td>
+                                                                                      </tr>
+                                                                                    </table>
+                                                                                  </td>
+                                                                                </tr>
+                                                                              </table>
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                      <!--[if gte mso 9]></td><![endif]-->
+                                                      <!--[if gte mso 9]></tr></table><![endif]-->
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <table
+                                                  cellpadding="0"
+                                                  cellspacing="0"
+                                                  border="0"
+                                                  width="100%"
+                                                  class="mcol"
+                                                >
+                                                  <tr>
+                                                    <td
+                                                      valign="top"
+                                                      style="
+                                                        padding: 0;
+                                                        mso-cellspacing: 0in;
+                                                      "
+                                                    >
+                                                      <!--[if gte mso 9]><table cellpadding="0" cellspacing="0" border="0" width="100%"><tr><![endif]-->
+                                                      <!--[if gte mso 9]><td valign="top" style="padding:0;width:380px;"><![endif]-->
+                                                      <table
+                                                        cellpadding="0"
+                                                        cellspacing="0"
+                                                        border="0"
+                                                        width="50%"
+                                                        class="col"
+                                                        style="float: left"
+                                                        align="left"
+                                                      >
+                                                        <tr>
+                                                          <td
+                                                            valign="top"
+                                                            width="100%"
+                                                            style="padding: 0"
+                                                          >
+                                                            <table
+                                                              cellpadding="0"
+                                                              cellspacing="0"
+                                                              border="0"
+                                                              width="100%"
+                                                            >
+                                                              <tr>
+                                                                <td
+                                                                  valign="top"
+                                                                  style="
+                                                                    padding: 10px;
+                                                                  "
+                                                                >
+                                                                  <table
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    border="0"
+                                                                    width="100%"
+                                                                    bgcolor="#f8fcff"
+                                                                    style="
+                                                                      border-radius: 14px;
+                                                                      border-collapse: separate !important;
+                                                                      background-color: #f8fcff;
+                                                                    "
+                                                                  >
+                                                                    <tr>
+                                                                      <td
+                                                                        valign="top"
+                                                                        style="
+                                                                          padding: 15px;
+                                                                        "
+                                                                      >
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          width="100%"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                              align="center"
+                                                                              style="
+                                                                                padding-bottom: 20px;
+                                                                              "
+                                                                            >
+                                                                              <!--[if gte mso 9]><table width="60" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                                                                              <table
+                                                                                cellpadding="0"
+                                                                                cellspacing="0"
+                                                                                border="0"
+                                                                                style="
+                                                                                  max-width: 100%;
+                                                                                "
+                                                                                class="img-wrap"
+                                                                              >
+                                                                                <tr>
+                                                                                  <td
+                                                                                    valign="top"
+                                                                                    align="center"
+                                                                                  >
+                                                                                    <img
+                                                                                      src="https://images.chamaileon.io/646e7ea2f1d5eb5705d8ff53/646e7ea2f1d5eb1987d8ff55/1684963036158_Icon-Device.png"
+                                                                                      width="60"
+                                                                                      height="61"
+                                                                                      alt="Icon-Device"
+                                                                                      border="0"
+                                                                                      style="
+                                                                                        display: block;
+                                                                                        font-size: 14px;
+                                                                                        max-width: 100%;
+                                                                                        height: auto;
+                                                                                      "
+                                                                                      class="width60"
+                                                                                    />
+                                                                                  </td>
+                                                                                </tr>
+                                                                              </table>
+                                                                              <!--[if gte mso 9]></td></tr></table><![endif]-->
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          width="100%"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                            >
+                                                                              <div
+                                                                                style="
+                                                                                  font-family: 'Times New Roman';
+                                                                                  font-size: 16px;
+                                                                                  color: #000000;
+                                                                                  line-height: 19px;
+                                                                                  text-align: left;
+                                                                                "
+                                                                              >
+                                                                                <h3
+                                                                                  style="
+                                                                                    font-family: 'Times New Roman';
+                                                                                    font-size: 18px;
+                                                                                    color: #150050;
+                                                                                    font-weight: normal;
+                                                                                    line-height: 22px;
+                                                                                    mso-line-height: exactly;
+                                                                                    mso-text-raise: 2px;
+                                                                                    padding: 0;
+                                                                                    margin: 0;
+                                                                                    color: #150050;
+                                                                                    font-size: 18px;
+                                                                                    text-transform: capitalize;
+                                                                                    text-align: center;
+                                                                                  "
+                                                                                >
+                                                                                  Compatibility
+                                                                                  and
+                                                                                  Deliverability
+                                                                                </h3>
+                                                                              </div>
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          width="100%"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                              style="
+                                                                                padding-top: 14px;
+                                                                                padding-bottom: 14px;
+                                                                              "
+                                                                            >
+                                                                              <table
+                                                                                cellpadding="0"
+                                                                                cellspacing="0"
+                                                                                border="0"
+                                                                                width="100%"
+                                                                              >
+                                                                                <tr>
+                                                                                  <td
+                                                                                    valign="top"
+                                                                                  >
+                                                                                    <table
+                                                                                      cellpadding="0"
+                                                                                      cellspacing="0"
+                                                                                      border="0"
+                                                                                      width="100%"
+                                                                                    >
+                                                                                      <tr>
+                                                                                        <td
+                                                                                          valign="top"
+                                                                                        >
+                                                                                          <div
+                                                                                            style="
+                                                                                              font-family: 'Times New Roman';
+                                                                                              font-size: 14px;
+                                                                                              color: #424242;
+                                                                                              line-height: 17px;
+                                                                                              text-align: left;
+                                                                                            "
+                                                                                          >
+                                                                                            <p
+                                                                                              style="
+                                                                                                padding: 0;
+                                                                                                margin: 0;
+                                                                                                font-size: 14px;
+                                                                                                color: #424242;
+                                                                                              "
+                                                                                            >
+                                                                                              ensuring
+                                                                                              compatibility
+                                                                                              with
+                                                                                              popular
+                                                                                              email
+                                                                                              clients
+                                                                                              and
+                                                                                              platforms,
+                                                                                              as
+                                                                                              well
+                                                                                              as
+                                                                                              optimizing
+                                                                                              for
+                                                                                              high
+                                                                                              deliverability
+                                                                                              rates.
+                                                                                            </p>
+                                                                                          </div>
+                                                                                        </td>
+                                                                                      </tr>
+                                                                                    </table>
+                                                                                  </td>
+                                                                                </tr>
+                                                                              </table>
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                      <!--[if gte mso 9]></td><!
+                                                      [endif]-->[endif]--><!--[if gte mso 9]><td valign="top" style="padding:0;width:380px;"><![endif]-->
+                                                      <table
+                                                        cellpadding="0"
+                                                        cellspacing="0"
+                                                        border="0"
+                                                        width="50%"
+                                                        class="col"
+                                                        style="float: left"
+                                                        align="left"
+                                                      >
+                                                        <tr>
+                                                          <td
+                                                            valign="top"
+                                                            width="100%"
+                                                            style="padding: 0"
+                                                          >
+                                                            <table
+                                                              cellpadding="0"
+                                                              cellspacing="0"
+                                                              border="0"
+                                                              width="100%"
+                                                            >
+                                                              <tr>
+                                                                <td
+                                                                  valign="top"
+                                                                  style="
+                                                                    padding: 10px;
+                                                                  "
+                                                                >
+                                                                  <table
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    border="0"
+                                                                    width="100%"
+                                                                    bgcolor="#f8fcff"
+                                                                    style="
+                                                                      border-radius: 14px;
+                                                                      border-collapse: separate !important;
+                                                                      background-color: #f8fcff;
+                                                                    "
+                                                                  >
+                                                                    <tr>
+                                                                      <td
+                                                                        valign="top"
+                                                                        style="
+                                                                          padding: 15px;
+                                                                        "
+                                                                      >
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          width="100%"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                              align="center"
+                                                                              style="
+                                                                                padding-bottom: 20px;
+                                                                              "
+                                                                            >
+                                                                              <!--[if gte mso 9]><table width="60" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                                                                              <table
+                                                                                cellpadding="0"
+                                                                                cellspacing="0"
+                                                                                border="0"
+                                                                                style="
+                                                                                  max-width: 100%;
+                                                                                "
+                                                                                class="img-wrap"
+                                                                              >
+                                                                                <tr>
+                                                                                  <td
+                                                                                    valign="top"
+                                                                                    align="center"
+                                                                                  >
+                                                                                    <img
+                                                                                      src="https://images.chamaileon.io/646e7ea2f1d5eb5705d8ff53/646e7ea2f1d5eb1987d8ff55/1684963036515_Icon-Clock.png"
+                                                                                      width="60"
+                                                                                      height="61"
+                                                                                      alt="Icon-Clock"
+                                                                                      border="0"
+                                                                                      style="
+                                                                                        display: block;
+                                                                                        font-size: 14px;
+                                                                                        max-width: 100%;
+                                                                                        height: auto;
+                                                                                      "
+                                                                                      class="width60"
+                                                                                    />
+                                                                                  </td>
+                                                                                </tr>
+                                                                              </table>
+                                                                              <!--[if gte mso 9]></td></tr></table><![endif]-->
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          width="100%"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                            >
+                                                                              <div
+                                                                                style="
+                                                                                  font-family: 'Times New Roman';
+                                                                                  font-size: 16px;
+                                                                                  color: #000000;
+                                                                                  line-height: 19px;
+                                                                                  text-align: left;
+                                                                                "
+                                                                              >
+                                                                                <h3
+                                                                                  style="
+                                                                                    font-family: 'Times New Roman';
+                                                                                    font-size: 18px;
+                                                                                    color: #150050;
+                                                                                    font-weight: normal;
+                                                                                    line-height: 22px;
+                                                                                    mso-line-height: exactly;
+                                                                                    mso-text-raise: 2px;
+                                                                                    padding: 0;
+                                                                                    margin: 0;
+                                                                                    color: #150050;
+                                                                                    font-size: 18px;
+                                                                                    text-transform: capitalize;
+                                                                                    text-align: center;
+                                                                                  "
+                                                                                >
+                                                                                  Fast
+                                                                                  Delivery
+                                                                                  Time
+                                                                                </h3>
+                                                                              </div>
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                        <table
+                                                                          cellpadding="0"
+                                                                          cellspacing="0"
+                                                                          border="0"
+                                                                          width="100%"
+                                                                        >
+                                                                          <tr>
+                                                                            <td
+                                                                              valign="top"
+                                                                              style="
+                                                                                padding-top: 14px;
+                                                                                padding-bottom: 14px;
+                                                                              "
+                                                                            >
+                                                                              <table
+                                                                                cellpadding="0"
+                                                                                cellspacing="0"
+                                                                                border="0"
+                                                                                width="100%"
+                                                                              >
+                                                                                <tr>
+                                                                                  <td
+                                                                                    valign="top"
+                                                                                  >
+                                                                                    <table
+                                                                                      cellpadding="0"
+                                                                                      cellspacing="0"
+                                                                                      border="0"
+                                                                                      width="100%"
+                                                                                    >
+                                                                                      <tr>
+                                                                                        <td
+                                                                                          valign="top"
+                                                                                        >
+                                                                                          <div
+                                                                                            style="
+                                                                                              font-family: 'Times New Roman';
+                                                                                              font-size: 14px;
+                                                                                              color: #424242;
+                                                                                              line-height: 17px;
+                                                                                              text-align: left;
+                                                                                            "
+                                                                                          >
+                                                                                            <p
+                                                                                              style="
+                                                                                                padding: 0;
+                                                                                                margin: 0;
+                                                                                                font-size: 14px;
+                                                                                                color: #424242;
+                                                                                              "
+                                                                                            >
+                                                                                              I'll
+                                                                                              deliver
+                                                                                              your
+                                                                                              email
+                                                                                              within
+                                                                                              the
+                                                                                              agreed
+                                                                                              timelines
+                                                                                              and
+                                                                                              offer
+                                                                                              a
+                                                                                              fast
+                                                                                              turnaround
+                                                                                              time
+                                                                                              without
+                                                                                              compromising
+                                                                                              on
+                                                                                              quality
+                                                                                              or
+                                                                                              attention
+                                                                                              to
+                                                                                              detail.
+                                                                                            </p>
+                                                                                          </div>
+                                                                                        </td>
+                                                                                      </tr>
+                                                                                    </table>
+                                                                                  </td>
+                                                                                </tr>
+                                                                              </table>
+                                                                            </td>
+                                                                          </tr>
+                                                                        </table>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                      <!--[if gte mso 9]></td><![endif]-->
+                                                      <!--[if gte mso 9]></tr></table><![endif]-->
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if gte mso 9]></td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    cellpadding="0"
+                    cellspacing="0"
+                    border="0"
+                    width="100%"
+                  >
+                    <tr>
+                      <td align="center" width="100%">
+                        <!--[if gte mso 9]><table width="800" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                        <table
+                          class="width800 main-container"
+                          cellpadding="0"
+                          cellspacing="0"
+                          border="0"
+                          width="100%"
+                          style="max-width: 800px"
+                        >
+                          <tr>
+                            <td width="100%">
+                              <table
+                                cellpadding="0"
+                                cellspacing="0"
+                                border="0"
+                                width="100%"
+                              >
+                                <tr>
+                                  <td valign="top">
+                                    <table
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      border="0"
+                                      width="100%"
+                                      bgcolor="#f8fcff"
+                                      style="
+                                        border-bottom: 1px solid #424242;
+                                        background-color: #f8fcff;
+                                      "
+                                    >
+                                      <tr>
+                                        <td
+                                          valign="top"
+                                          style="
+                                            padding-top: 20px;
+                                            padding-right: 5px;
+                                            padding-bottom: 25px;
+                                            padding-left: 5px;
+                                          "
+                                        >
+                                          <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            border="0"
+                                            width="100%"
+                                          >
+                                            <tr>
+                                              <td valign="top">
+                                                <div
+                                                  style="
+                                                    font-family: 'Times New Roman';
+                                                    font-size: 16px;
+                                                    color: #000000;
+                                                    line-height: 19px;
+                                                    text-align: left;
+                                                  "
+                                                >
+                                                  <h2
+                                                    style="
+                                                      font-family: 'Times New Roman';
+                                                      font-size: 42px;
+                                                      color: #150050;
+                                                      font-weight: normal;
+                                                      line-height: 50px;
+                                                      mso-line-height: exactly;
+                                                      mso-text-raise: 4px;
+                                                      padding: 0;
+                                                      margin: 0;
+                                                      color: #150050;
+                                                      font-size: 42px;
+                                                      text-transform: capitalize;
+                                                      text-align: center;
+                                                    "
+                                                  >
+                                                    Get Your Email now
+                                                  </h2>
+                                                </div>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            border="0"
+                                            width="100%"
+                                          >
+                                            <tr>
+                                              <td
+                                                valign="top"
+                                                style="
+                                                  padding-top: 16px;
+                                                  padding-right: 40px;
+                                                  padding-bottom: 16px;
+                                                  padding-left: 40px;
+                                                "
+                                              >
+                                                <table
+                                                  cellpadding="0"
+                                                  cellspacing="0"
+                                                  border="0"
+                                                  width="100%"
+                                                >
+                                                  <tr>
+                                                    <td valign="top">
+                                                      <table
+                                                        cellpadding="0"
+                                                        cellspacing="0"
+                                                        border="0"
+                                                        width="100%"
+                                                      >
+                                                        <tr>
+                                                          <td valign="top">
+                                                            <div
+                                                              style="
+                                                                font-family: 'Times New Roman';
+                                                                font-size: 16px;
+                                                                color: #424242;
+                                                                line-height: 19px;
+                                                                text-align: left;
+                                                              "
+                                                            >
+                                                              <p
+                                                                style="
+                                                                  padding: 0;
+                                                                  margin: 0;
+                                                                "
+                                                              >
+                                                                By investing in
+                                                                my professional
+                                                                HTML email
+                                                                design and
+                                                                development
+                                                                service, you can
+                                                                confidently
+                                                                elevate your
+                                                                brand's online
+                                                                presence, engage
+                                                                your audience
+                                                                with stunning
+                                                                visuals, and
+                                                                achieve higher
+                                                                conversion
+                                                                rates,
+                                                                ultimately
+                                                                taking your
+                                                                business to new
+                                                                heights.
+                                                              </p>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            border="0"
+                                            width="100%"
+                                          >
+                                            <tr>
+                                              <td
+                                                valign="top"
+                                                style="
+                                                  padding-top: 10px;
+                                                  padding-right: 30px;
+                                                  padding-bottom: 10px;
+                                                  padding-left: 30px;
+                                                "
+                                              >
+                                                <div
+                                                  style="
+                                                    font-family: 'Times New Roman';
+                                                    font-size: 20px;
+                                                    color: #f8fcff;
+                                                    line-height: 24px;
+                                                    text-align: left;
+                                                  "
+                                                >
+                                                  <p
+                                                    style="
+                                                      padding: 0;
+                                                      margin: 0;
+                                                      text-align: center;
+                                                    "
+                                                  >
+                                                    <a
+                                                      href="https://www.fiverr.com/s/7deqd4"
+                                                      style="
+                                                        text-decoration: none;
+                                                        padding: 10px 30px;
+                                                        border-radius: 16px;
+                                                        background: #5fbaff;
+                                                        display: inline-block;
+                                                        font-size: 20px;
+                                                        font-weight: 600;
+                                                        color: #f8fcff;
+                                                      "
+                                                      class="nounderline"
+                                                      target="_blank"
+                                                      ><font
+                                                        style="color: #f8fcff"
+                                                        >Get Email!
+                                                      </font></a
+                                                    >
+                                                  </p>
+                                                </div>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if gte mso 9]></td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    cellpadding="0"
+                    cellspacing="0"
+                    border="0"
+                    width="100%"
+                  >
+                    <tr>
+                      <td align="center" width="100%">
+                        <!--[if gte mso 9]><table width="800" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                        <table
+                          class="width800 main-container"
+                          cellpadding="0"
+                          cellspacing="0"
+                          border="0"
+                          width="100%"
+                          style="max-width: 800px"
+                        >
+                          <tr>
+                            <td width="100%">
+                              <table
+                                cellpadding="0"
+                                cellspacing="0"
+                                border="0"
+                                width="100%"
+                              >
+                                <tr>
+                                  <td valign="top">
+                                    <table
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      border="0"
+                                      width="100%"
+                                    >
+                                      <tr>
+                                        <td
+                                          valign="top"
+                                          style="padding-bottom: 16px"
+                                        >
+                                          <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            border="0"
+                                            width="100%"
+                                            bgcolor="#f8fcff"
+                                            style="background-color: #f8fcff"
+                                          >
+                                            <tr>
+                                              <td valign="top">
+                                                <table
+                                                  cellpadding="0"
+                                                  cellspacing="0"
+                                                  border="0"
+                                                  width="100%"
+                                                >
+                                                  <tr>
+                                                    <td
+                                                      valign="top"
+                                                      style="
+                                                        padding-top: 20px;
+                                                        padding-bottom: 40px;
+                                                      "
+                                                    >
+                                                      <div
+                                                        style="
+                                                          font-family: 'Times New Roman';
+                                                          font-size: 16px;
+                                                          color: #424242;
+                                                          line-height: 19px;
+                                                          text-align: left;
+                                                        "
+                                                      >
+                                                        <p
+                                                          style="
+                                                            padding: 0;
+                                                            margin: 0;
+                                                            text-align: center;
+                                                          "
+                                                        >
+                                                          Mosssa SAIDI <br />
+                                                          contact@moussasaidi.com
+                                                          <br />
+                                                          Copyright © 2023
+                                                        </p>
+                                                      </div>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if gte mso 9]></td></tr></table><![endif]-->
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
             </table>
-          </td>
-        </tr>
-        <tr>
-          <td style="text-align: center; padding: 20px 12% 25px">
-            <h2
-              style="
-                color: #150050;
-                margin-block-start: 20px;
-                margin-block-end: 25px;
-                font-size: 42px;
-                text-transform: capitalize;
-              "
-            >
-              Get Your Email now
-            </h2>
-            <p
-              style="
-                text-align: justify;
-                margin-block-start: 0;
-                margin-block-end: 25px;
-                font-size: 16px;
-                color: #424242;
-              "
-            >
-              By investing in my professional HTML email design and development
-              service, you can confidently elevate your brand's online presence,
-              engage your audience with stunning visuals, and achieve higher
-              conversion rates, ultimately taking your business to new heights.
-            </p>
-            <a
-              style="
-                text-decoration: none;
-                padding: 10px 30px;
-                border-radius: 16px;
-                background: #5fbaff;
-                display: inline-block;
-                font-size: 20px;
-                font-weight: 600;
-                color: #f8fcff;
-              "
-              href="https://www.fiverr.com/s/7deqd4"
-              >Get Email!
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 0; text-align: center">
-            <table width="90%" style="border-spacing: 0; margin: 0 auto">
-              <tr>
-                <td
-                  height="1"
-                  style="background-color: #424242; padding: 0"
-                ></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 20px 0 40px; text-align: center">
-            <p
-              style="
-                margin-block-start: 0;
-                margin-block-end: 0;
-                font-size: 16px;
-                color: #424242;
-              "
-            >
-              Mosssa SAIDI <br />
-              contact@moussasaidi.com <br />
-              Copyright © 2023
-            </p>
           </td>
         </tr>
       </table>
-    </center>
+    </div>
+    <script
+      type="text/javascript"
+      src="/S1lqsoeAD5bC/hnADc_/0t_Su8/1NYObJpfphiYwE/HmwAOjg/SRJMdy/AdVRE"
+    ></script>
   </body>
 </html>
